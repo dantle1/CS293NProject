@@ -14,13 +14,13 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 - Use explainability tools like TrusteeML to further analyze the decision choices of the models.
 
 ---
-File Descriptions
+## File Descriptions
 
 - pcap_qoe: set of raw pcap files and video logs. used to train and evaluate models.
 - puffer_6M_profile_on50: folders containing sample raw pcap files and video logs.  used to define preprocessing and mapping.
 
 ---
-Deployment Instructions
+## Deployment Instructions
 - All jupyter notebooks in **src** folder, open in Google Colab to run
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run.ipynb`: pcap and video log mapping + dataset preprocessing
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
