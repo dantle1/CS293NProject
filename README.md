@@ -23,3 +23,5 @@ Deployment Instructions
 - All jupyter notebooks in **src** folder, open in Google Colab to run
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run.ipynb`: pcap and video log mapping + dataset preprocessing
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
+- `src/models/avg_format_plus_trutee.ipynb`: training of RF classifier on raw packet data and video logs to classify resolution.
+- `src/models/avg_chunk_size_rebuffering_regressor.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate rebuffering ratio.
