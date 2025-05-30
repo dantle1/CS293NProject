@@ -13,3 +13,13 @@ This project aims to **infer end-user Quality of Experience (QoE) metrics** such
 - Use explainability tools like TrusteeML to further analyze the decision choices of the models.
 
 ---
+File Descriptions
+
+- pcap_qoe: set of raw pcap files and video logs. used to train and evaluate models.
+- puffer_6M_profile_on50: folders containing sample raw pcap files and video logs.  used to define preprocessing and mapping.
+
+---
+Deployment Instructions
+- All jupyter notebooks in **src** folder
+- Sample dataset run: src/Jaber_Dataset_Trial_Run.ipynb
+- Actual dataset run: src/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb
