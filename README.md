@@ -1,7 +1,6 @@
 # Inferring Quality of Experience (QoE) in Video Streaming
 
-This project aims to **infer end-user Quality of Experience (QoE) metrics** such as **rebuffering ratio**, **average chunk size**, and **video resolution**, directly from **network traffic features**. The goal is to enable **passive QoE monitoring** to support ISPs, CDNs, and researchers in understanding and improving video streaming quality at scale.
-
+Measuring Quality of Experience (QoE) in video streaming is essential for network providers and content delivery platforms to optimize user satisfaction.  This project aims to **infer end-user Quality of Experience (QoE) metrics** such as **rebuffering ratio**, **average chunk size**, and **video resolution**, directly from  **packet level features** extracted from raw network traffic.  We train and evaluate several machine learning models such as Random Forest and Support Vector Machine to predict QoE.  Our results show that it is possible to estimate video quality without access to a video player or application internals, enabling QoE monitoring in real world networks.
 ---
 
 ## Project Objectives
