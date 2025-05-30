@@ -20,6 +20,6 @@ File Descriptions
 
 ---
 Deployment Instructions
-- All jupyter notebooks in **src** folder
+- All jupyter notebooks in **src** folder, open in Google Colab to run
 - Sample dataset run: src/Jaber_Dataset_Trial_Run.ipynb
 - Actual dataset run: src/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb
