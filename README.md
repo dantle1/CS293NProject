@@ -21,5 +21,5 @@ File Descriptions
 ---
 Deployment Instructions
 - All jupyter notebooks in **src** folder, open in Google Colab to run
-- Sample dataset run: src/Jaber_Dataset_Trial_Run.ipynb; pcap and video log mapping + dataset preprocessing
-- Actual dataset run: src/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb; provides all the actual dataset preprocessing and training of Random Forest Model to classify resolution.
+- `src/preprocessing_mapping/Jaber_Dataset_Trial_Run.ipynb`: pcap and video log mapping + dataset preprocessing
+- `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
