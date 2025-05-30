@@ -7,7 +7,7 @@ This project aims to **infer end-user Quality of Experience (QoE) metrics** such
 ## Project Objectives
 
 - **Predict QoE metrics** without access to video player or application logs.
-- Extract meaningful features from **network-level traces** (e.g., packet sizes, inter-arrival times).
+- Extract meaningful features from **network-level traces** (e.g., packet counts, packet sizes, inter-arrival times).
 - Train and evaluate **machine learning models** (e.g., Random Forest, SVM, Linear Regression).
 - Validate inference accuracy against ground truth metrics from known video sessions.
 - Use explainability tools like TrusteeML to further analyze the decision choices of the models.
