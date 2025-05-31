@@ -26,6 +26,8 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
 - `src/models/avg_format_plus_trutee.ipynb`: training of RF classifier on raw packet data and video logs to classify resolution.
 - `src/models/avg_chunk_size_rebuffering_regressor.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate rebuffering ratio.
+- `src/models+trusteereport/avg_chunk_size_rebuffering_regressor.ipynb`: same as `src/models/avg_chunk_size_rebuffering_regressor.ipynb` with full trustee report
+- `src/models+trusteereport/avg_format_plus_trutee.ipynb`: same as `src/models/avg_format_plus_trutee.ipynb` with full trustee report
 
 ---
 ## Steps to Reproduce
@@ -36,3 +38,4 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 5. Repeat the previous step for `src/models/avg_ssim_plus_trutee.ipynb`
    * We only added ssim to demonstrate our work, we won't be including it due to the min. value being around 0.88... and the max. value being 0.99... which is not a good representation of different ssim values
 6. For `src/models/avg_chunk_size_rebuffering_regressor.ipynb`, just run all the cells and ignore the prompt to restart the session once you install Trustee because it still works
+7. For the full trustee report, run all the notebooks in the `src/models+trusteereport/` folder
