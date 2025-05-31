@@ -26,3 +26,12 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
 - `src/models/avg_format_plus_trutee.ipynb`: training of RF classifier on raw packet data and video logs to classify resolution.
 - `src/models/avg_chunk_size_rebuffering_regressor.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate rebuffering ratio.
+
+---
+## Steps to Reproduce
+- CLone this repo
+- Upload the notebooks to Google Colab
+- On Google Colab, run `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`to generate the modeling_dataset.csv or use the one we already made in the repo
+- Once you have modeling_dataset.csv, follow the directions in the `src/models/avg_format_plus_trutee.ipynb` by running each cell and uploading the modeling_dataset.csv in the second cell, also ignore the prompt to restart the session once you install Trustee because it still works
+- Repeat the previous step for `src/models/avg_ssim_plus_trutee.ipynb`
+- For `src/models/avg_chunk_size_rebuffering_regressor.ipynb`, just run all the cells and ignore the prompt to restart the session once you install Trustee because it still works
