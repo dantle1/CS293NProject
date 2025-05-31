@@ -29,7 +29,7 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 
 ---
 ## Steps to Reproduce
-1. CLone this repo
+1. Clone this repo
 2. Upload the notebooks to Google Colab
 3. On Google Colab, run `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`to generate the modeling_dataset.csv or use the one we already made in the repo
 4. Once you have modeling_dataset.csv, follow the directions in the `src/models/avg_format_plus_trutee.ipynb` by running each cell and uploading the modeling_dataset.csv in the second cell, also ignore the prompt to restart the session once you install Trustee because it still works
