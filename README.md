@@ -29,9 +29,9 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 
 ---
 ## Steps to Reproduce
-- CLone this repo
-- Upload the notebooks to Google Colab
-- On Google Colab, run `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`to generate the modeling_dataset.csv or use the one we already made in the repo
-- Once you have modeling_dataset.csv, follow the directions in the `src/models/avg_format_plus_trutee.ipynb` by running each cell and uploading the modeling_dataset.csv in the second cell, also ignore the prompt to restart the session once you install Trustee because it still works
-- Repeat the previous step for `src/models/avg_ssim_plus_trutee.ipynb`
-- For `src/models/avg_chunk_size_rebuffering_regressor.ipynb`, just run all the cells and ignore the prompt to restart the session once you install Trustee because it still works
+1. CLone this repo
+2. Upload the notebooks to Google Colab
+3. On Google Colab, run `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`to generate the modeling_dataset.csv or use the one we already made in the repo
+4. Once you have modeling_dataset.csv, follow the directions in the `src/models/avg_format_plus_trutee.ipynb` by running each cell and uploading the modeling_dataset.csv in the second cell, also ignore the prompt to restart the session once you install Trustee because it still works
+5. Repeat the previous step for `src/models/avg_ssim_plus_trutee.ipynb`
+6. For `src/models/avg_chunk_size_rebuffering_regressor.ipynb`, just run all the cells and ignore the prompt to restart the session once you install Trustee because it still works
