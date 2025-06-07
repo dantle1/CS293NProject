@@ -37,4 +37,4 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 4. Once you have modeling_dataset.csv, follow the directions in the `src/models+trustee code/avg_format_plus_trutee.ipynb` by running each cell and uploading the modeling_dataset.csv in the second cell, also ignore the prompt to restart the session once you install Trustee because it still works
 5. Repeat the previous step for `src/models+trustee code/avg_ssim_plus_trutee.ipynb`
 6. For `src/models+trustee code/avg_chunk_size_regressor+_rebuffering_classifer.ipynb`, select 'run all' and ignore the prompt to restart the session, this is unnecessary and the code remains fully functional!
-7. For the full trustee report, view the folder /src/TRUSTEE_OUTPUTS for a complete breakdown
+7. For the full trustee report, view the folder `src/TRUSTEE_OUTPUTS` for a complete breakdown
