@@ -22,12 +22,10 @@ Measuring Quality of Experience (QoE) in video streaming is essential for networ
 ---
 ## Deployment Instructions
 - All jupyter notebooks in **src** folder, open in Google Colab to run
-- `src/preprocessing_mapping/Jaber_Dataset_Trial_Run.ipynb`: pcap and video log mapping + dataset preprocessing
 - `src/preprocessing_mapping/Jaber_Dataset_Trial_Run_(all_pcaps).ipynb`: provides all the actual pcap and video log mapping + dataset preprocessing.
-- `src/models/avg_format_plus_trutee.ipynb`: training of RF classifier on raw packet data and video logs to classify resolution.
-- `src/models/avg_chunk_size_rebuffering_regressor.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate rebuffering ratio.
-- `src/models+trusteereport/avg_chunk_size_rebuffering_regressor.ipynb`: same as `src/models/avg_chunk_size_rebuffering_regressor.ipynb` with full trustee report
-- `src/models+trusteereport/avg_format_plus_trutee.ipynb`: same as `src/models/avg_format_plus_trutee.ipynb` with full trustee report
+- `src/models+trustee code/avg_format_plus_trutee.ipynb`: training of RF classifier on raw packet data and video logs to classify resolution.
+- `src/models+trustee code/avg_chunk_size_rebuffering_regressor.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate rebuffering ratio.
+- `src/models+trustee code/avg_ssim_plus_trutee.ipynb`: training of RF/Linear regressor on raw packet data and video logs to calculate average SSIM values that have been converted into decibels
 
 ---
 ## Steps to Reproduce
